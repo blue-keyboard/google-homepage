@@ -18,7 +18,7 @@ Seemed simple, tried to match the exact grey tones just for fun, discovered that
 
 ## Main content
 
-For this part I experimented with a simple div-wrapper that has text-align to center its items, so i made its childs inline-block elements and to put one below the other i just used the "<br>" tag.
+For this part I experimented with a simple div-wrapper that has text-align to center its items, so i made its childs inline-block elements and to put one below the other i just used the <code>&lt;br&gt;<code> tag.
 
 The most interesting part was doing the search box, for this I made a div flexbox with rounded corners, then the "search icon" and the input-text as its childs, i learned how to style the input-text removing some of the properties that has as default.
 
