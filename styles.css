@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    font: small, arial, sans-serif;
+    background-color: #FFF;
+    color: #222;
+    display: block;
+}
+
+#wraper {
+    display: flex;
+    flex-direction: column;
+}
