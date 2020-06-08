@@ -82,10 +82,89 @@ a {
     margin: 0 16px;
 }
 
+/* -----main content----- */
 #main {
-    
+   text-align: center;
 }
 
+#main > * {
+    display: inline-block;
+}
+
+#google-logo {
+    margin-top: 138px;
+}
+
+#search-box {
+    box-sizing: border-box;
+    margin-top: 30px;
+    display: inline-flex;
+    height: 44px;
+    width: 580px;
+    border: 1px solid rgba(0,0,0,.12);
+    border-radius: 40px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#search-box:hover, #search-box:focus {
+    box-shadow: 0px 1px 6px #ccc;
+}
+
+#search-icon > img {
+    width: 15px;
+    height: 15px;
+    padding-right: 16px;
+}
+
+#search-bar > input {
+    width: 484px;
+    padding: 0;
+    border: none;
+    border-image: initial;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+#search-bar > input:focus {
+    outline: none;
+}
+
+#buttons {
+    display: inline-flex;
+    margin: 30px 0;
+}
+
+#buttons > span {
+    margin: 0 5px;
+}
+
+.button {
+    box-sizing: border-box;
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: rgba(0,0,0,.05);
+    color: rgba(0,0,0,.7);
+    border: 1px solid rgba(0,0,0,0.02);
+    border-radius: 4px;
+}
+
+.button:hover {
+    border-color: rgba(0, 0, 0, 0.3);
+    color: #111;
+}
+
+#buttons a:active .button{
+    border-color: rgb(0, 153, 255);
+}
+
+#reg-lang a {
+    color: rgb(48, 48, 182);
+    margin: 0 3px;
+}
+
+
+/* -----footer nav-bar----- */
 #fbar {
     position: absolute;
     bottom: 0;
