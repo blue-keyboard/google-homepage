@@ -13,12 +13,6 @@ a {
     text-decoration: none;
 }
 
-#wraper {
-    display: flex;
-    flex-direction: column;
-}
-
-
 /* -----TOP PART-----*/
 #top-items {
     display: flex;
@@ -38,7 +32,7 @@ a {
 }
 
 #links div a:hover {
-    color: #555;
+    color: #777;
     text-decoration: underline;
 }
 
@@ -72,7 +66,7 @@ a {
     background-color: #777;
 }
 
-#apps > div:hover > div {
+#apps:hover > div > div {
     background-color: #222;
 }
 
@@ -88,11 +82,38 @@ a {
     margin: 0 16px;
 }
 
-
 #main {
     
 }
 
-#footer {
+#fbar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: rgba(0,0,0,.68);
+    background-color: rgba(0,0,0,.05);
+    font-size: 14px;
+    line-height: 40px;
+}
 
+#country {
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    padding-left: 27px;
+    border-top: 1px solid rgba(0,0,0,.07);
+    border-bottom: 1px solid rgba(0,0,0,.08);
+}
+
+#fbar-bot {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 27px;
+}
+
+#fbar-bot > div > * {
+    padding-left: 27px;
+}
+
+#fbar-bot > div > *:hover {
+    text-decoration: underline;
 }
