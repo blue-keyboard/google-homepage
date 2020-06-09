@@ -163,6 +163,10 @@ a {
     margin: 0 3px;
 }
 
+#reg-lang a:hover {
+    text-decoration: underline;
+}
+
 
 /* -----footer nav-bar----- */
 #fbar {
