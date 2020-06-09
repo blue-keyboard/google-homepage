@@ -22,3 +22,15 @@ For this part I experimented with a simple div-wrapper that has text-align to ce
 
 The most interesting part was doing the search box, for this I made a div flexbox with rounded corners, then the "search icon" and the input-text as its childs, i learned how to style the input-text removing some of the properties that has as default.
 
+
+# Google search results
+
+Feeling confident to do this page as well, it will just take more time, gonna try to mimic as much as possible as well. I know is not necessary but i feel i can learn some things too focusing on the detail, challenging myself.
+
+## 3 part Header
+
+This took time becouse had to figure it out some things for myself, I think the most important part was to discover how valuable are the developer tools and felt I gained more skill with it, could borrow the vsg items thanks to it.
+
+Also felt that I hard coded many things to align things etc, i don't know if this is more common than i think, or could be that i am using only plain css. Also i think my css code could be more compact (basically same result with less code) and organized, probably will try to educate myself in this subject.
+
+

@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    font-family: arial, sans-serif;
+    background-color: #FFF;
+    color: #222;
+    display: block;
+}
+
+body a {
+    text-decoration: none;
+    color:#1A0DA8;
+}
+
+#header {
+    color: #5f6368;
+}
+
+    #header-search {
+        position: sticky;
+        top: 0;
+        display: flex;
+        padding: 16px 16px 16px 16px;
+        align-items: center;
+    }
+
+    #google-logo {
+        margin: 2px 40px 0px 8px;
+    }
+
+    #search-box {
+        box-sizing: border-box;
+        display: inline-flex;
+        height: 44px;
+        width: 690px;
+        border: 1px solid rgba(0,0,0,.12);
+        border-radius: 40px;
+        align-items: center;
+        padding: 0 10px 0 20px;
+    }
+
+    #search-box:hover, #search-box:focus {
+        box-shadow: 0px 1px 6px #ccc;
+    }
+
+    #search-input{
+        width: 584px;
+        padding: 0;
+        border: none;
+        border-image: initial;
+        font-family: inherit;
+        font-size: 16px;
+    }
+
+
+    #search-input:focus {
+        outline: none;
+    }
+
+    .sbox-icons {
+        display: inline-block;
+        padding: 0px 10px;
+    }
+
+    #x-icon {
+        height: 24px;
+        width: 24px;
+        filter: invert(.3);
+        border-right: 1px solid rgba(0,0,0,.15);
+    }
+
+    #search-icon {
+        height: 20px;
+        width: 20px;
+        filter: invert(38%) sepia(90%) saturate(1326%) hue-rotate(203deg) brightness(101%) contrast(91%);
+    }
+
+    #user-items {
+        margin-left: auto;
+        display: flex;
+    }
+
+    #user-items > * {
+        margin-right: 12px;
+    }
+
+    #apps {
+        text-decoration: none;
+        height: 30px;
+        width: 30px;
+        padding: 7px;
+        display: inline-block;
+        box-sizing: border-box;
+    }
+
+    .round {
+        padding: 5px;
+        border-radius: 50%;
+    }
+
+    .round:hover {
+        background-color: #EEE;
+    }
+
+    #apps > div {
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: repeat(3,1fr);
+        gap: 2px;
+    }
+
+    #apps > div > div {
+        width: 4px;
+        height: 4px;
+        background-color: #777;
+        border-radius: 3px;
+    }
+
+    #apps:hover > div > div {
+        background-color: #222;
+    }
+
+    #profile {
+        box-sizing: border-box;
+        display: inline-flex;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: rgb(22, 151, 130);
+        color: #FFF;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2px;
+    }
+
+    .nav-icons {
+        display: inline-block;
+        height: 16px;
+        width: 16px;
+        margin-right: 2px;
+    }
+
+    #more-icon{
+        margin-right: -2px;
+    }
+
+    #header-nav {
+        display: flex;
+        padding-left: 164px;
+        /* padding-bottom: 2px; */
+        border-bottom: 1px solid #eee;
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    #header-nav #current {
+        color: #1a73e8;
+        border-bottom: 3px solid #1a73e8;
+    }
+
+    #header-nav #current svg {
+        filter: invert(30%) sepia(53%) saturate(2607%) hue-rotate(201deg) brightness(100%) contrast(93%);
+    }
+
+    #header-nav > a {
+        display: inline-block;
+        padding: 8px 11px 4px 11px;
+        color: #5f6368;
+    }
+
+    svg {
+        filter: invert(.4);
+    }
+
+    #header-nav span{
+        vertical-align: text-bottom;
+    }
+
+    #header-nav > div {
+        display: inline-block;
+        width: 84px;
+    }
+    
+    #header-nav .nav-config {
+        display:inline-block;
+        box-sizing: border-box;
+        padding: 5px 10px;
+        border: 1px solid white;
+        margin: 4px 3px;
+    }
+
+    #tool-button:hover {
+        background-color: rgba(0,0,0,.04);
+        border-radius: 2px;
+        border: 1px solid #ccc;
+        box-shadow: 0px 1px 1px #eee;
+    }
+
+    #results {
+        font-size: 14px;
+        padding-left: 174px;
+        color: #70757A;
+        line-height: 48px;
+    }
+
+
+
+
+
