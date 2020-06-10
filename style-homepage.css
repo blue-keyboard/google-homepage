@@ -200,3 +200,8 @@ a {
 #fbar-bot > div > *:hover {
     text-decoration: underline;
 }
+
+.link-header {
+    display: inline-block;
+    font-size: 20px;
+}

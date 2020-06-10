@@ -13,15 +13,16 @@ body a {
     color:#1A0DA8;
 }
 
-#header {
-    color: #5f6368;
-}
+
+/*----HEADER----*/
 
     #header-search {
+        background-color: #FFF;
         position: sticky;
         top: 0;
+        z-index: 1;
         display: flex;
-        padding: 16px 16px 16px 16px;
+        padding: 16px;
         align-items: center;
     }
 
@@ -207,4 +208,116 @@ body a {
 
 
 
+main {
+    margin: 0px 20px 20px 176px;
+    width: 640px;
+    font-size: 14px;
+    color: #4D5156;
+    line-height: 1.58;
+}
 
+main a:hover {
+    text-decoration: underline;
+}
+
+.link-header {
+    font-size: 20px;
+}
+
+
+    .result {
+        margin: 36px 0px;
+        width: 600px;
+    }
+        .top-url {
+            color: #202124;
+        }
+
+            .top-url a {
+                color: inherit;
+            }
+                .top-url a:hover {
+                    text-decoration: none;
+                }
+    
+        .top-url-sub {
+            color: #5F6368;
+        }
+
+        .triangle-menu {
+            height:7px;
+            width: 7px;
+            margin: 0 0 1px 4px; 
+            opacity: 0.6;
+        }
+
+    #top-result {
+        margin: 0px;
+    }
+
+    #top-result-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-left: 22px;
+        margin-top: 10px;
+        row-gap: 5px;
+    }
+
+        #top-result-grid > * {
+            width: 294px;
+            padding: 3px 0 3px 5px;
+            border: 1px solid transparent;
+
+        }
+
+        .gi-descrip {
+            width: 220px;
+            margin-top: -2px;
+        }
+    
+    #people-ask {
+        color: #222;
+        font-size: 16px;
+        margin-top: 28px;
+        border: 1px solid rgba(0,0,0,.12);
+        border-radius: 8px;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-template-rows: repeat(4, 44px);
+    }
+
+        #people-ask a {
+            color: inherit;
+        }
+            #people-ask a:hover {
+                text-decoration: none;
+            }
+
+        #people-ask > * {
+            padding: 0px 16px;
+            line-height: 44px;
+            border-top: 1px solid rgba(0,0,0,.12);
+        }
+
+        #pa-title {
+            border-top: none;
+            font-size:20px;
+            grid-area: 1/1/2/3;
+        }
+
+        .pa-drop-down img{
+            height: 12px;
+            width: 12px;
+            opacity: 0.5;
+        }
+
+    #pa-feedback {
+        font-size: 12px;
+        color: #70757A;
+        padding-right: 16px;
+        text-align: right;
+    }
+        #pa-feedback a{
+            color: inherit;
+        }
