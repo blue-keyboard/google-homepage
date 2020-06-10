@@ -224,7 +224,6 @@ main a:hover {
     font-size: 20px;
 }
 
-
     .result {
         margin: 36px 0px;
         width: 600px;
@@ -250,6 +249,24 @@ main a:hover {
             margin: 0 0 1px 4px; 
             opacity: 0.6;
         }
+
+        .rating {
+            margin-top: -1px;
+            margin-bottom: -8px;
+            display: inline-flex;
+        }
+
+            .rating span{
+                margin: 2px 0 0 4px;
+                color: #70757a
+            }
+
+            #star-rating {
+                width: 76px;
+                height: 24px;
+            }
+
+
 
     #top-result {
         margin: 0px;
@@ -313,6 +330,7 @@ main a:hover {
         }
 
     #pa-feedback {
+        margin-top: 3px;
         font-size: 12px;
         color: #70757A;
         padding-right: 16px;
@@ -320,4 +338,36 @@ main a:hover {
     }
         #pa-feedback a{
             color: inherit;
+        }
+
+    #search-related {
+        font-size: 20px;
+        color: #222;
+        padding-bottom: 20px;
+        margin-top: -10px;
+    }
+
+    #search-pages > * {
+        display: inline-block;
+        padding-right: 30px;
+    }
+
+    #search-pages > * > div {
+        display: flex;
+        vertical-align: center;
+        height: 30px;
+        font-size: 16px;
+        color: #1A0DA8;
+    }
+
+        #search-pages svg {
+            padding-top: 4px;
+            width: 16px;
+            height: 16px;
+            filter: invert(12%) sepia(79%) saturate(5310%) hue-rotate(242deg) brightness(76%) contrast(106%);
+        }
+
+        #search-pages span {
+            padding-left: 16px;
+            display: inline-block;
         }
