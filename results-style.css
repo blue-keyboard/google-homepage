@@ -612,3 +612,62 @@ main a:hover {
                         #claim-icon svg {
                             filter: invert(43%) sepia(84%) saturate(973%) hue-rotate(198deg) brightness(93%) contrast(106%);
                         }
+
+
+    /* -------------------FOOTER-------------------- */
+
+    #main-footer {
+        margin-top: 10px;
+        color: #5f6368;
+        background-color: #F2F2F2;
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+        #main-footer >* {
+            padding-left: 176px;
+            display:flex;
+            border-top: 1px solid #e4e4e4;
+        }
+
+        #main-footer a {
+            color: inherit;
+        }
+
+            #main-footer a:hover {
+                color: #333;
+            }
+
+        #main-footer b {
+            color: #333;
+        }
+
+        #f-country {
+            display: flex;
+            line-height: 20px;
+            align-items: center;
+        }
+
+            #f-country > span {
+                color: rgba(0,0,0,.54);
+                display: inline-block;
+                border-right: 1px solid #e4e4e4;
+                padding: 2px 12px 2px 0px;
+                margin-right: 16px;
+            }
+
+
+        #f-circle {
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            padding: ;
+            background-color: #5f6368;
+            opacity: 0.6;
+            margin: 15px 5px 0 0;
+        }
+
+        #bot-fbar > *{
+            margin-right: 28px;
+        }
+        
