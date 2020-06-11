@@ -33,4 +33,15 @@ This took time becouse had to figure it out some things for myself, I think the 
 
 Also felt that I hard coded many things to align things etc, i don't know if this is more common than i think, or could be that i am using only plain css. Also i think my css code could be more compact (basically same result with less code) and organized, probably will try to educate myself in this subject.
 
+## Main content - search results
+
+This was relatively easy but the addition of some details to make it look like the real page took some time. For example finding and aligning some svg files, the star rating, but overall easy.
+
+## o-pages and aside
+
+Making the Goooooogle part was a bit challenging, in part becouse I had to make an image and chop the letters into different images with the same height so i culd align them properly, had a problem where just by having an anchor tag around the o's would push those a bit to the top, but could solve it.
+
+I thought the aside would be the most difficult part, but i think as i was doing this project i got better at css and could in some way predict what would be the appropiate layout and how to style it, a lot of flexbox in this part.
+
+
 
