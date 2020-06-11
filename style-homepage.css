@@ -107,7 +107,7 @@ a {
     padding: 0 20px;
 }
 
-#search-box:hover, #search-box:focus {
+#search-box:hover {
     box-shadow: 0px 1px 6px #ccc;
 }
 
@@ -152,6 +152,7 @@ a {
 .button:hover {
     border-color: rgba(0, 0, 0, 0.3);
     color: #111;
+    box-shadow: 0px 1px 1px rgba(0,0,0,.1)
 }
 
 #buttons a:active .button{

@@ -118,7 +118,7 @@ body a {
         border-radius: 3px;
     }
 
-    #apps:hover > div > div {
+    .round:hover > #apps > div > div {
         background-color: #222;
     }
 
@@ -661,7 +661,6 @@ main a:hover {
             height: 10px;
             width: 10px;
             border-radius: 50%;
-            padding: ;
             background-color: #5f6368;
             opacity: 0.6;
             margin: 15px 5px 0 0;
