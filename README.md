@@ -1,6 +1,6 @@
 # Recreating Google Homepage
 
-In this project ill try to recreate the only the visual elements of the google homepage, without the functionality.
+In this project ill try to recreate only the visual elements of the google homepage, without the functionality.
 I couldn't resist to try to mimic the page as much as possible though.
 
 
