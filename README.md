@@ -25,6 +25,8 @@ The most interesting part was doing the search box, for this I made a div flexbo
 
 # Google search results
 
+Important! to see this page, press on "How search works" at the bottom, Yes, poor choice, i don't know why i put it there. This is the relative url in any case: /google-homepage/search-results.html
+
 Feeling confident to do this page as well, it will just take more time, gonna try to mimic as much as possible as well. I know is not necessary but i feel i can learn some things too focusing on the detail, challenging myself.
 
 ## 3 part Header
