@@ -1,6 +1,6 @@
 # Recreating Google Homepage
 
-Project Made in June, 2020.
+Project Made in June, 2020. As an exercise in The Odin Project.
 
 In this project ill try to recreate only the visual elements of the google homepage, without the functionality.
 I couldn't resist to try to mimic the page as much as possible though.
